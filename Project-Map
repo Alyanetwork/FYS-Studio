@@ -1,0 +1,14 @@
+FYS-Studio/
+├── src/
+│   ├── lexer.py                # Sözcük Çözümleyici (Lexical Analyzer)
+│   ├── parser.py               # Sözdizimsel Ayrıştırıcı (Parser)
+│   ├── interpreter.py          # Yorumlayıcı (Interpreter)
+│   ├── fys_studio.py           # FYS Studio'nun ana çalışma dosyası
+├── tests/
+│   ├── test_lexer.py           # Lexer test dosyası
+│   ├── test_parser.py          # Parser test dosyası
+│   ├── test_interpreter.py     # Interpreter test dosyası
+├── examples/
+│   ├── moving_average_analysis.fys  # Basit bir hareketli ortalama örneği
+│   └── rsi_analysis.fys             # RSI analizi örneği
+└── README.md                       # Proje bilgileri ve kullanım açıklamaları
